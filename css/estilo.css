@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*comienza el header*/
+body {
+  background-color: rgba(167, 97, 5, 0.959);
+}
+
+.navbar-nav {
+  text-align: right;
+}
+
+header.navbar a {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 10px;
+}
+header.headerFixed {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+header.fondo {
+  background-color: rgba(53, 52, 52, 0.8235294118);
+}
+header a .logoHeader {
+  width: 80px;
+}
+header .carrito {
+  width: 30px;
+  height: 30px;
+}
+/*comienzo del footer*/
+footer {
+  background-color: rgba(219, 149, 18, 0.993);
+  border-top: 2px solid white;
+  padding: 30px 10px;
+  width: 100%;
+  text-align: center;
+}
+footer .logoRedes {
+  width: 40px;
+  height: 40px;
+}
+footer .seguinos {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+footer a {
+  text-decoration: none;
+  padding: 20px;
+}
+/*banner index y carousel */
+.bannerPrincipal {
+  width: 100%;
+  max-height: 750px;
+  object-fit: cover;
+}
+
+.carousel {
+  margin-top: 10px;
+  background-color: white;
+}
+.carousel .estrellas {
+  height: 100px;
+}
+.carousel .testimonios {
+  text-align: center;
+}
+.carousel .testimoniosImg {
+  text-align: center;
+}
+/*titulos de las paginas*/
+.titulos {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: black;
+  color: rgba(219, 149, 18, 0.993);
+  font-weight: bolder;
+}
+
+.subTitulos {
+  text-align: center;
+  background-color: black;
+  color: rgba(219, 149, 18, 0.993);
+  font-weight: bolder;
+}
+
+.containerCentrado {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.containerFondo {
+  background-color: rgba(219, 149, 18, 0.993);
+}
+/*comienza locales*/
+.tarjetaLocales {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+  padding: 7px;
+}
+
+.contenedorLocales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px;
+  background-color: rgba(219, 149, 18, 0.993);
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imgLocales {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+/*comienza conocenos*/
+.sectionAboutUs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sectionAboutUs .cardParrafo {
+  width: 90%;
+}
+.sectionAboutUs .cardParrafo .cardConocenos {
+  background-color: rgba(219, 149, 18, 0.993);
+  border-radius: 10px;
+  border: 20px rgba(219, 149, 18, 0.993) solid;
+}
+.sectionAboutUs .imgConocenos {
+  border-radius: 10px;
+  width: 100%;
+}
+.sectionAboutUs .contenido {
+  margin: 10px;
+}
+/*meedia queris*/
+@media (min-width: 768px) {
+  .tarjetaLocales {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 890px) {
+  .sectionAboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/*formularios de trabaja con nosotros*/
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario {
+  padding: 20px;
+}
+.formulario .label {
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.formulario .input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  transition: width 1s;
+}
+.formulario .btns {
+  display: flex;
+  gap: 10px;
+}
+.formulario .btns .btn {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .formulario .input {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .formulario .input {
+    width: 40%;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
