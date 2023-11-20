@@ -1,0 +1,44 @@
+[
+    {   
+        "id": 1,
+        "titulo": "AMERICAN DOBLE",
+        "descripcion": "Medallon x2 Cheddar Fetas x4 Tomate Lechuga Cebolla y Thousand Island.",
+        "imagen": "img/american-doble.jpeg",
+        "precio": 4550
+    },
+    {   
+        "id": 2,
+        "titulo": "MAX POWER",
+        "descripcion": "Medallon x2 Cheddar Fetas x4 Bacon Cebolla Crispy salsa power doble.",
+        "imagen": "img/maxpower.jpeg",
+        "precio": 4800
+    },
+    {   
+        "id": 3,
+        "titulo": "ONION",
+        "descripcion": "Medallon x2 Cheddar x4 Cebolla Grilled en pan de papa con salsa po",
+        "imagen": "img/onion.jpeg",
+        "precio": 4400
+    },
+    {   
+        "id": 4,
+        "titulo": "CALIFORNIANA",
+        "descripcion": "Medallón, cheddar x2, lechuga, tomate, cebolla, salsa picante en pan brioche.",
+        "imagen": "img/american-simple.jpeg",
+        "precio": 4000
+    },
+    {   
+        "id": 5,
+        "titulo": "ROYAL POWER",
+        "descripcion": "Medallon x2 Cheddar Fetas x4 Cebolla Ketchup mayonesa en pan de papa.",
+        "imagen": "img/royal.jpeg",
+        "precio": 4300
+    },
+    {   
+        "id": 6,
+        "titulo": "TRIPLE CHEES",
+        "descripcion": "Medallon x3 Cheddar Fetas x6 en un pan brioche con papas fritas y salsa power.",
+        "imagen": "img/triplecheese.jpeg",
+        "precio": 5000
+    }
+]
